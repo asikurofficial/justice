@@ -45,60 +45,58 @@
 
 <body>
   <header class="mb-28">
-    <!-- nav part -->
-    <nav class=" container mx-auto flex justify-between lg:my-10 gap-14  ">
-      <!--  -->
-      <div class="navbar-start">
-        <div class="dropdown">
-          <label tabindex="0" class="btn btn-ghost lg:hidden">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-              stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
-            </svg>
-          </label>
-          <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-            <a href="">
-              <li class="">Home </li>
-            </a>
-            <a href="">
-              <li>Services <i class="fa-solid fa-chevron-right" style="color: #0f0a0a;"></i></li>
-            </a>
-            <a href="">
-              <li>Cases <i class="fa-solid fa-chevron-right" style="color: #0f0a0a;"></i></li>
-            </a>
-            <a href="">
-              <li>Blog <i class="fa-solid fa-chevron-right" style="color: #0f0a0a;"></i></li>
-            </a>
-            <a href="">
-              <li>Contact Us <i class="fa-solid fa-chevron-right" style="color: #0f0a0a;"></i></li>
-            </a>
-            <button class="btn  bg-custom text-white">Free consultation</button>
-          </ul>
+    <!-- nav -->
+    <div class="navbar-start">
+      <div class="dropdown">
+        <label tabindex="0" class="btn btn-ghost lg:hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+          </svg>
+        </label>
+        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+          <a href="">
+            <li class="">Home </li>
+          </a>
+          <a href="">
+            <li>Services <i class="fa-solid fa-chevron-right" style="color: #0f0a0a;"></i></li>
+          </a>
+          <a href="">
+            <li>Cases <i class="fa-solid fa-chevron-right" style="color: #0f0a0a;"></i></li>
+          </a>
+          <a href="">
+            <li>Blog <i class="fa-solid fa-chevron-right" style="color: #0f0a0a;"></i></li>
+          </a>
+          <a href="">
+            <li>Contact Us <i class="fa-solid fa-chevron-right" style="color: #0f0a0a;"></i></li>
+          </a>
+          <button class="btn  bg-custom text-white">Free consultation</button>
+        </ul>
 
-        </div>
       </div>
-      <!--  -->
-      <div class="hidden">
-        <div class="flex justify-center items-center">
+    </div>
+    <!--  -->
+    <div class="hidden lg:contents ">
+      <div class="container mx-auto flex justify-between py-6 ">
+        <div class="flex">
           <img class="w-[45px]" src="images/business.png" alt="">
           <h3 class="text-4xl font-extrabold">Justice</h3>
         </div>
-        <div>
-          <ul class="flex justify-between gap-14 mt-4 ">
+        <div class="mt-2">
+          <ul class="flex gap-7">
             <a href="">
-              <li class="">Home </li>
+              <li>Home</li>
             </a>
             <a href="">
-              <li>Services <i class="fa-solid fa-chevron-right" style="color: #0f0a0a;"></i></li>
+              <li>Services</li>
             </a>
             <a href="">
-              <li>Cases <i class="fa-solid fa-chevron-right" style="color: #0f0a0a;"></i></li>
+              <li>Cases</li>
             </a>
             <a href="">
-              <li>Blog <i class="fa-solid fa-chevron-right" style="color: #0f0a0a;"></i></li>
+              <li>Blog</li>
             </a>
             <a href="">
-              <li>Contact Us <i class="fa-solid fa-chevron-right" style="color: #0f0a0a;"></i></li>
+              <li>Contact</li>
             </a>
           </ul>
         </div>
@@ -106,7 +104,9 @@
           <button class="btn  bg-custom text-white">Free consultation</button>
         </div>
       </div>
+    </div>
     </nav>
+
     <!-- banner section -->
     <section class="container mx-auto  ">
       <div class="hero bg-cover  " style="background-image: url('images/banner.png')">
@@ -128,8 +128,9 @@
   <!-- main section -->
   <main>
     <!-- legal practice area -->
-    <h3 class="text-5xl font-extrabold text-center">The Legal Practice Area</h3>
-    <p class="text-center my-10">There are many variations of passages of Lorem Ipsum available, but the majority have
+    <h3 class="text-5xl font-extrabold text-center p-5">The Legal Practice Area</h3>
+    <p class="text-center my-10 p-5">There are many variations of passages of Lorem Ipsum available, but the majority
+      have
       <br>
       suffered alteration in some form, by injected humour.
     </p>
@@ -142,7 +143,7 @@
         </div>
         <div>
           <h4 class="text-4xl my-5 font-extrabold font-eb">Business Law</h4>
-          <p class="my-6">There are many variations of <br>
+          <p class="my-6 font-poppins">There are many variations of <br>
             passages of Lorem Ipsum <br>
             available, but the majority have <br>
             suffered alteration in some <br> form, by injected hum
@@ -159,7 +160,7 @@
         </div>
         <div>
           <h4 class="text-4xl my-5 font-extrabold font-eb">Criminal Law</h4>
-          <p class="my-6">There are many variations of <br>
+          <p class="my-6 font-poppins">There are many variations of <br>
             passages of Lorem Ipsum <br>
             available, but the majority have <br>
             suffered alteration in some <br> form, by injected hum
@@ -176,7 +177,7 @@
         </div>
         <div>
           <h4 class="text-4xl my-5 font-extrabold font-eb">Child Support</h4>
-          <p class="my-6">There are many variations of <br>
+          <p class="my-6 font-poppins">There are many variations of <br>
             passages of Lorem Ipsum <br>
             available, but the majority have <br>
             suffered alteration in some <br> form, by injected hum
@@ -193,7 +194,7 @@
         </div>
         <div>
           <h4 class="text-4xl my-5 font-extrabold font-eb">Education Law</h4>
-          <p class="my-6">There are many variations of <br>
+          <p class="my-6 font-poppins">There are many variations of <br>
             passages of Lorem Ipsum <br>
             available, but the majority have <br>
             suffered alteration in some <br> form, by injected hum
@@ -210,7 +211,7 @@
         </div>
         <div>
           <h4 class="text-4xl my-5 font-extrabold font-eb">Divorce Law</h4>
-          <p class="my-6">There are many variations of <br>
+          <p class="my-6 font-poppins">There are many variations of <br>
             passages of Lorem Ipsum <br>
             available, but the majority have <br>
             suffered alteration in some <br> form, by injected hum
@@ -227,7 +228,7 @@
         </div>
         <div>
           <h4 class="text-4xl my-5 font-extrabold font-eb">Tax Law</h4>
-          <p class="my-6">There are many variations of <br>
+          <p class="my-6 font-poppins">There are many variations of <br>
             passages of Lorem Ipsum <br>
             available, but the majority have <br>
             suffered alteration in some <br> form, by injected hum
@@ -240,7 +241,8 @@
     </section>
     <!-- client review -->
     <h3 class="text-4xl font-extrabold text-center font-eb my-5">What Our Client Say</h3>
-    <p class="text-center mb-8">There are many variations of passages of Lorem Ipsum available, but the majority have
+    <p class="text-center mb-8 font-poppins">There are many variations of passages of Lorem Ipsum available, but the
+      majority have
       suffered alteration in some form, by injected humour.</p>
     <section class="container mx-auto lg:mb-32">
       <div class="hero bg-auto bg-repeat-x " style="background-image: url('images/banner.png')">
@@ -249,7 +251,8 @@
           <div class="max-w-3xl">
             <h1 class="mb-1 text-3xl font-bold font-eb">Awlad Hossain</h1>
             <p class="mb-5">UIX Designer</p>
-            <p class="mb-5">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece
+            <p class="mb-5 font-poppins">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots
+              in a piece
               of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin
               professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,
               consectetur.</p>
@@ -260,7 +263,8 @@
     </section>
     <!-- Frequently Asked Any Questions -->
     <h3 class="text-5xl font-extrabold text-center font-eb p-5 ">Frequently Asked Any Questions</h3>
-    <p class="text-center my-5 p-5">There are many variations of passages of Lorem Ipsum available, but the majority
+    <p class="text-center my-5 p-5 font-poppins">There are many variations of passages of Lorem Ipsum available, but the
+      majority
       have <br>
       suffered alteration in some form, by injected humour.</p>
     <section class=" container mx-auto flex gap-10 my-16 lg:-mr-3 flex-col md:flex-row p-5">
@@ -312,12 +316,13 @@
     </section>
     <!-- contact us -->
     <h3 class="text-5xl font-extrabold text-center font-eb pt-10">Contact With Us</h3>
-    <p class="text-center py-16">There are many variations of passages of Lorem Ipsum available, but the majority have
+    <p class="text-center py-16 font-poppins">There are many variations of passages of Lorem Ipsum available, but the
+      majority have
       <br>
       suffered alteration in some form, by injected humour.
     </p>
     <section class=" container mx-auto flex flex-1 lg:gap-24 flex-col lg:flex-row">
-      <div class="grid grid-cols-1 lg:grid-cols-2 p-5 bg-slate-100 mb-24">
+      <div class="grid grid-cols-1 lg:grid-cols-2 p-8  mb-24">
         <!-- card 1 -->
         <div class="border border-slate-200 p-16 lg:w-[285px] lg:h-[285px] ">
           <div class="flex justify-center">
@@ -325,7 +330,7 @@
           </div>
           <div>
             <h4 class="text-2xl my-3 font-extrabold font-eb text-center">Address</h4>
-            <p class="my-6 text-center">A108 Adam Street,
+            <p class="my-6 text-center font-poppins">A108 Adam Street,
               New York, NY 535022
             </p>
           </div>
@@ -337,7 +342,7 @@
           </div>
           <div>
             <h4 class="text-2xl my-3 font-extrabold font-eb text-center">Address</h4>
-            <p class="my-6 text-center">A108 Adam Street,
+            <p class="my-6 text-center font-poppins">A108 Adam Street,
               New York, NY 535022
             </p>
           </div>
@@ -349,7 +354,7 @@
           </div>
           <div>
             <h4 class="text-2xl my-3 font-extrabold font-eb text-center">Address</h4>
-            <p class="my-6 text-center">A108 Adam Street,
+            <p class="my-6 text-center font-poppins">A108 Adam Street,
               New York, NY 535022
             </p>
           </div>
@@ -361,13 +366,13 @@
           </div>
           <div>
             <h4 class="text-2xl my-3 font-extrabold font-eb text-center">Address</h4>
-            <p class="my-6 text-center">A108 Adam Street,
+            <p class="my-6 text-center font-poppins">A108 Adam Street,
               New York, NY 535022
             </p>
           </div>
         </div>
       </div>
-<!-- contact form -->
+      <!-- contact form -->
       <div class=" flex-1 p-5">
         <input
           class="placeholder:italic placeholder:text-slate-400 block bg-white w-full  h-[75px] border border-slate-300 rounded-md py-2 pl-9 pr-3 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm mb-8"
@@ -387,8 +392,50 @@
     </section>
   </main>
   <!-- footer section -->
-  <footer>
+  <footer class="footer w-[95%] bg-black text-white text-base-content px-10 py-16 lg:py-24 lg:px-32">
 
+    <div>
+      <h3 class="footer-title">
+        <div class="flex">
+          <img class="w-[45px]" src="images/business.png" alt="">
+          <h3 class="text-4xl font-extrabold">Justice</h3>
+        </div>
+      </h3>
+      <p>There are many variations of
+        <br>passages of Lorem Ipsum <br>
+        available, but the majority have <br>
+        suffered alteration in some <br>
+        form, by injected humour.
+      </p>
+    </div>
+    <div>
+      <span class="footer-title">Company</span>
+      <a class="link link-hover">About us</a>
+      <a class="link link-hover">Contact</a>
+      <a class="link link-hover">Jobs</a>
+      <a class="link link-hover">Press kit</a>
+    </div>
+    <div>
+      <span class="footer-title">Legal</span>
+      <a class="link link-hover">Terms of use</a>
+      <a class="link link-hover">Privacy policy</a>
+      <a class="link link-hover">Cookie policy</a>
+    </div>
+    <div>
+      <span class="footer-title">Newsletter</span>
+      <div class="form-control lg:w-[80%]">
+        <label class="label">
+          <span class="label-text text-white">Enter your email address</span>
+        </label>
+        <div class="relative">
+          <input type="text" placeholder="username@site.com"
+            class="input input-bordered bg-slate-300 w-full lg:pr-16" />
+          <button class="btn bg-custom absolute top-0 right-0 rounded-l-none">Subscribe</button>
+        </div>
+      </div>
+    </div>
+
+    </div>
   </footer>
 </body>
 
