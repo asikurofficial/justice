@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,12 +8,16 @@
   <!--google font setup -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;0,700;0,800;1,700;1,800&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;0,700;0,800;1,700;1,800&family=Poppins:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
   <!-- tailwind and daisy setup -->
   <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.tailwindcss.com"></script>
   <!-- font awesome setup -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- tailwind -->
   <script>
     tailwind.config = {
@@ -20,7 +25,7 @@
         extend: {
           colors: {
             clifford: '#da373d',
-            custom:'#B68C5A'
+            custom: '#B68C5A'
           }
         }
       }
@@ -28,43 +33,56 @@
   </script>
   <!-- css -->
   <style>
-.font-eb{
-  font-family: 'EB Garamond', serif;
-}
-.font-poppins{
-  font-family: 'Poppins', sans-serif;
-}
+    .font-eb {
+      font-family: 'EB Garamond', serif;
+    }
+
+    .font-poppins {
+      font-family: 'Poppins', sans-serif;
+    }
   </style>
 </head>
+
 <body>
-  <header class="">
+  <header class="mb-28">
     <!-- nav part -->
-<nav class=" container mx-auto flex justify-between lg:my-10 gap-14 ">
-  <div class="flex justify-center items-center">
-    <img class="w-[45px]" src="images/business.png" alt="">
-  <h3 class="text-4xl font-extrabold">Justice</h3>
-  </div>
-  <div>
-    <ul class="flex justify-between gap-14 mt-4 ">
-      <a href=""><li class="">Home </li></a>
-      <a href=""><li>Services <i class="fa-solid fa-chevron-right" style="color: #0f0a0a;"></i></li></a>
-      <a href=""><li>Cases <i class="fa-solid fa-chevron-right" style="color: #0f0a0a;"></i></li></a>
-      <a href=""><li>Blog <i class="fa-solid fa-chevron-right" style="color: #0f0a0a;"></i></li></a>
-      <a href=""><li>Contact Us <i class="fa-solid fa-chevron-right" style="color: #0f0a0a;"></i></li></a>
-    </ul>
-  </div>
-  <div>
-    <button class="btn  bg-custom text-white">Free consultation</button>
-  </div>
-</nav>
+    <nav class=" container mx-auto flex justify-between lg:my-10 gap-14  ">
+      <div class="flex justify-center items-center">
+        <img class="w-[45px]" src="images/business.png" alt="">
+        <h3 class="text-4xl font-extrabold">Justice</h3>
+      </div>
+      <div>
+        <ul class="flex justify-between gap-14 mt-4 ">
+          <a href="">
+            <li class="">Home </li>
+          </a>
+          <a href="">
+            <li>Services <i class="fa-solid fa-chevron-right" style="color: #0f0a0a;"></i></li>
+          </a>
+          <a href="">
+            <li>Cases <i class="fa-solid fa-chevron-right" style="color: #0f0a0a;"></i></li>
+          </a>
+          <a href="">
+            <li>Blog <i class="fa-solid fa-chevron-right" style="color: #0f0a0a;"></i></li>
+          </a>
+          <a href="">
+            <li>Contact Us <i class="fa-solid fa-chevron-right" style="color: #0f0a0a;"></i></li>
+          </a>
+        </ul>
+      </div>
+      <div>
+        <button class="btn  bg-custom text-white">Free consultation</button>
+      </div>
+    </nav>
     <!-- banner section -->
     <section class="container mx-auto  ">
       <div class="hero bg-cover  " style="background-image: url('images/banner.png')">
         <div class="hero-overlay bg-opacity-50 "></div>
-        <div class="hero-content text-center text-neutral-content py-28">
+        <div class="hero-content text-center text-neutral-content py-40">
           <div class="max-w-3xl">
             <h1 class="mb-5 text-7xl font-bold font-eb">We Provide Effective Legal Solutions</h1>
-            <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+            <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
+              quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
             <div class="flex gap-6 justify-center ">
               <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
               <button class="btn border-[0px] bg-custom text-white">Get Started</button>
@@ -76,6 +94,115 @@
   </header>
   <!-- main section -->
   <main>
+    <!-- legal practice area -->
+    <h3 class="text-5xl font-extrabold text-center">The Legal Practice Area</h3>
+    <p class="text-center my-10">There are many variations of passages of Lorem Ipsum available, but the majority have
+      <br>
+      suffered alteration in some form, by injected humour.</p>
+    <section class="container mx-auto gap-8 grid grid-cols-2 lg:grid-cols-3 justify-center items-center text-center mb-24 ">
+      <!-- card 1 -->
+      <div class="border border-slate-200 p-16 shadow-xl ">
+        <div class="flex justify-center">
+          <img class="" src="./images/business.png" alt="">
+        </div>
+        <div>
+          <h4 class="text-4xl my-5 font-extrabold font-eb">Business Law</h4>
+          <p class="my-6">There are many variations of <br>
+            passages of Lorem Ipsum <br>
+            available, but the majority have <br>
+            suffered alteration in some <br> form, by injected hum
+          </p>
+        </div>
+        <div class="flex justify-center">
+          <a href=""><img class="" src="./images/Frame.png" alt=""></a>
+        </div>
+      </div>
+      <!-- card 2 -->
+      <div class="border border-slate-200 p-16 shadow-xl">
+        <div class="flex justify-center">
+          <img class="" src="./images/criminal.png" alt="">
+        </div>
+        <div>
+          <h4 class="text-4xl my-5 font-extrabold font-eb">Criminal Law</h4>
+          <p class="my-6">There are many variations of <br>
+            passages of Lorem Ipsum <br>
+            available, but the majority have <br>
+            suffered alteration in some <br> form, by injected hum
+          </p>
+        </div>
+        <div class="flex justify-center">
+          <a href=""><img class="" src="./images/Frame.png" alt=""></a>
+        </div>
+      </div>
+      <!-- card 3 -->
+      <div class="border border-slate-200 p-16 my-10 shadow-xl">
+        <div class="flex justify-center">
+          <img class="" src="./images/child.png" alt="">
+        </div>
+        <div>
+          <h4 class="text-4xl my-5 font-extrabold font-eb">Child Support</h4>
+          <p class="my-6">There are many variations of <br>
+            passages of Lorem Ipsum <br>
+            available, but the majority have <br>
+            suffered alteration in some <br> form, by injected hum
+          </p>
+        </div>
+        <div class="flex justify-center">
+          <a href=""><img class="" src="./images/Frame.png" alt=""></a>
+        </div>
+      </div>
+      <!-- card 4 -->
+      <div class="border border-slate-200 p-16 shadow-xl">
+        <div class="flex justify-center">
+          <img class="" src="./images/education.png" alt="">
+        </div>
+        <div>
+          <h4 class="text-4xl my-5 font-extrabold font-eb">Education Law</h4>
+          <p class="my-6">There are many variations of <br>
+            passages of Lorem Ipsum <br>
+            available, but the majority have <br>
+            suffered alteration in some <br> form, by injected hum
+          </p>
+        </div>
+        <div class="flex justify-center">
+          <a href=""><img class="" src="./images/Frame.png" alt=""></a>
+        </div>
+      </div>
+      <!-- card 5 -->
+      <div class="border border-slate-200 p-16 shadow-xl">
+        <div class="flex justify-center">
+          <img class="" src="./images/divorce.png" alt="">
+        </div>
+        <div>
+          <h4 class="text-4xl my-5 font-extrabold font-eb">Divorce Law</h4>
+          <p class="my-6">There are many variations of <br>
+            passages of Lorem Ipsum <br>
+            available, but the majority have <br>
+            suffered alteration in some <br> form, by injected hum
+          </p>
+        </div>
+        <div class="flex justify-center">
+          <a href=""><img class="" src="./images/Frame.png" alt=""></a>
+        </div>
+      </div>
+            <!-- card 6 -->
+            <div class="border border-slate-200 p-16 shadow-xl">
+              <div class="flex justify-center">
+                <img class="" src="./images/tax.png" alt="">
+              </div>
+              <div>
+                <h4 class="text-4xl my-5 font-extrabold font-eb">Tax Law</h4>
+                <p class="my-6">There are many variations of <br>
+                  passages of Lorem Ipsum <br>
+                  available, but the majority have <br>
+                  suffered alteration in some <br> form, by injected hum
+                </p>
+              </div>
+              <div class="flex justify-center">
+                <a href=""><img class="" src="./images/Frame.png" alt=""></a>
+              </div>
+            </div>
+    </section>
 
   </main>
   <!-- footer section -->
@@ -83,4 +210,5 @@
 
   </footer>
 </body>
+
 </html>
